@@ -1,14 +1,15 @@
 package co.uk.justeat.stepsDefinitions;
 
+import co.uk.justeat.pages.BasePage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class SearchForRestaurantsStepDefinitions {
+public class SearchForRestaurantsStepDefinitions  extends BasePage {
 
     @Given("I navigate to Just Eat website")
     public void i_navigate_to_just_eat_website() {
-
+launchURL();
     }
 
     @When("I enter my {string}")
