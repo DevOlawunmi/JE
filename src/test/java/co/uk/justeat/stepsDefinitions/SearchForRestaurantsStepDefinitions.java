@@ -16,8 +16,8 @@ launchURL();
     }
 
     @When("I enter my {string}")
-    public void i_enter_my(String string) {
-
+    public void i_enter_my(String postcode) {
+homePage.enterPostcode(postcode);
     }
 
     @When("I click on the search button")
