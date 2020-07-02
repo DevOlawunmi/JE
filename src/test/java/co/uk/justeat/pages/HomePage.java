@@ -13,6 +13,8 @@ public class HomePage extends BasePage {
 
     @FindBy(xpath = "//*[@id=\"main\"]/div[2]/div[2]/div/div/div/form/div/div/label/input")
     private WebElement postCodeField;
+    @FindBy (className = "Form_c-search-btn-text_6RDDX")
+    private WebElement searchButton;
 
 
 
@@ -22,4 +24,11 @@ public class HomePage extends BasePage {
         postCodeField.clear();
         postCodeField.sendKeys(postcode);
     }
+
+    public void clickOnSearchButton(){
+        searchButton.click();
+            }
+     public void isCorrectURLDisplayedForSearch(String area){
+        driver.getCurrentUrl().contains(area);
+     }
 }

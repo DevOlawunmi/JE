@@ -22,7 +22,7 @@ homePage.enterPostcode(postcode);
 
     @When("I click on the search button")
     public void i_click_on_the_search_button() {
-
+homePage.clickOnSearchButton();
     }
 
     @Then("all the restaurants within my {string} are displayed")
