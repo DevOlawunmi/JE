@@ -7,7 +7,10 @@ import co.uk.justeat.pages.SearchResultPage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
+
+import java.util.concurrent.TimeUnit;
 
 public class SearchForRestaurantsStepDefinitions  extends BasePage {
     HomePage homePage = PageFactory.initElements(driver, HomePage.class);
@@ -36,9 +39,15 @@ searchResultPage.isPageTitleDisplayed();
     }
 
     @Then("I click on one of the restaurants currently open")
-    public void i_click_on_one_of_the_restaurants_currently_open() {
+    public void i_click_on_one_of_the_restaurants_currently_open() throws InterruptedException {
 //searchResultPage.selectRandomRestaurant();
         searchResultPage.selectRandomRestaurant();
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
     }
 
 }
