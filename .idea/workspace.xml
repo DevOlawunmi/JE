@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="709f0cf3-0189-4520-bb58-6a2ec1587fb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/justeat/pages/SearchResultPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/justeat/pages/RestaurantDetailsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/justeat/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/justeat/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/justeat/pages/SearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/justeat/pages/SearchResultPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/justeat/stepsDefinitions/SearchForRestaurantsStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/justeat/stepsDefinitions/SearchForRestaurantsStepDefinitions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -172,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593693260352</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Search Result Page Created">
+      <created>1593757942432</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1593757942432</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -180,7 +188,8 @@
     <MESSAGE value="Postcode Search feature added" />
     <MESSAGE value="URL Successfully launched" />
     <MESSAGE value="Home Page Class created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home Page Class created" />
+    <MESSAGE value="Search Result Page Created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Search Result Page Created" />
   </component>
   <component name="WindowStateProjectService">
     <state x="469" y="339" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1593337794889">
@@ -191,30 +200,34 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="566" y="294" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1593337551416" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1593693259410">
+    <state x="360" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1593771496945">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1593693259410" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1593757412132">
+    <state x="360" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1593771496945" />
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1593757941732">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593757412132" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1593757412131">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1593757941732" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1593771678630">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593757412131" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1593757412131">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593771678630" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1593771678629">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593757412131" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1593757412131">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593771678629" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1593771678629">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593757412131" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1593693263296">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593771678629" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1593771678630">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1593693263296" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593771678630" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1593757944791">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1593757944791" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1593409950700">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
