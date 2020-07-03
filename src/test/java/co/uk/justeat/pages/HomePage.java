@@ -25,10 +25,10 @@ public class HomePage extends BasePage {
         postCodeField.sendKeys(postcode);
     }
 
-    public void clickOnSearchButton(){
+    public SearchResultPage clickOnSearchButton(){
         searchButton.click();
+        return new SearchResultPage(driver);
             }
-     public void isCorrectURLDisplayedForSearch(String area){
-        driver.getCurrentUrl().contains(area);
-     }
+
+
 }
