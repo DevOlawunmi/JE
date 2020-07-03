@@ -14,4 +14,4 @@ Feature: Search Restaurants with my Postcode
 
     Examples:
       |postcode|
-      |OL9 8LP|
+      |M40 0GE|
