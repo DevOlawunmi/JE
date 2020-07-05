@@ -23,7 +23,7 @@ public class SearchResultPage extends BasePage {
 
 
     public void isCorrectURLDisplayedForSearch(String area){
-        driver.getCurrentUrl().contains(area);}
+        driver.getCurrentUrl().contains(area.toLowerCase());}
 
 public void isPageTitleDisplayed(){
     Assert.assertTrue(pageTitle.isDisplayed());
